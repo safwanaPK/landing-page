@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta 
+	name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>My Book</title>
+</head>
+<body>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<li class="nav-link"><a href="">Books</a></li>
+        <li class="nav-link"><a href="">Home</a></li>
+        <li class="nav-link"><a href="">About</a></li>
+        <li class="nav-link"><a href="">Job</a></li>
+        <li class="nav-link"><a href="">Contact</a></li>
+	</div>
+	<!-- navigation bar ends here-->
+ 
+	<!-- book section -->
+	<div class="book-section">
+		<!-- book section content -->
+		<div class="book-section-content">
+			<h1>WELCOME</h1>
+			<h3>To Book World</h3>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt veniam sequi accusamus eaque error sapiente iste temporibus corrupti sit. Saepe voluptatum tempora, dolorum officia inventore eaque quisquam in quia odit.
+			</p>
+			<button class="btn btn1">explore</button>
+			<button class="btn btn1">watch us</button>
+			<div class="social-media">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+			</div>
+
+		</div>
+		<!-- book section content ends -->
+		<div class="book-section-img">
+			<img src="C:\Users\safwa\OneDrive\Documents\SAFI\landing page\books-and-window-1219757.jpg"alt="" width="640" height="480">
+		</div>
+	</div>
+	<div>
+		<script>
+			function sayHello() {
+				let newDiv = document.createElement("div");
+				let form1 = document.getElementById("form-1");
+				let userName = form1.elements[0].value;
+				newDiv.innerHTML = "Hello " + userName;
+	
+				document.body.appendChild(newDiv);
+			}
+		</script>
+		<form id="form-1" action="" onsubmit=sayHello()>
+			Name: <input type="text" name = "name">
+			<button type = button id="button-2" onclick="sayHello()">click me to say hi</button>
+		</form>
+	</div>
+</body>
+</html>
+<!-- git test -->
+<!-- save test -->
